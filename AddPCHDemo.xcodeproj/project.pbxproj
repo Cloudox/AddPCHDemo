@@ -40,6 +40,7 @@
 		AD7386271C239140008ED9FB /* AddPCHDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddPCHDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD73862C1C239140008ED9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD73862D1C239140008ED9FB /* AddPCHDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPCHDemoTests.m; sourceTree = "<group>"; };
+		AD7386371C2391C2008ED9FB /* AddPCHDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddPCHDemo-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 				AD73861B1C239140008ED9FB /* Main.storyboard */,
 				AD73861E1C239140008ED9FB /* Images.xcassets */,
 				AD7386201C239140008ED9FB /* LaunchScreen.xib */,
+				AD7386371C2391C2008ED9FB /* AddPCHDemo-Prefix.pch */,
 				AD7386111C239140008ED9FB /* Supporting Files */,
 			);
 			path = AddPCHDemo;
@@ -347,6 +349,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AddPCHDemo/AddPCHDemo-Prefix.pch";
 				INFOPLIST_FILE = AddPCHDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +361,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AddPCHDemo/AddPCHDemo-Prefix.pch";
 				INFOPLIST_FILE = AddPCHDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
