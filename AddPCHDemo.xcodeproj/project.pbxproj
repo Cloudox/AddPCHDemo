@@ -14,6 +14,8 @@
 		AD73861F1C239140008ED9FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD73861E1C239140008ED9FB /* Images.xcassets */; };
 		AD7386221C239140008ED9FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7386201C239140008ED9FB /* LaunchScreen.xib */; };
 		AD73862E1C239140008ED9FB /* AddPCHDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD73862D1C239140008ED9FB /* AddPCHDemoTests.m */; };
+		AD73863A1C23A38E008ED9FB /* AddPCHFile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7386381C23A38E008ED9FB /* AddPCHFile.jpg */; };
+		AD73863B1C23A38E008ED9FB /* SetPCH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7386391C23A38E008ED9FB /* SetPCH.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		AD73862C1C239140008ED9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD73862D1C239140008ED9FB /* AddPCHDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPCHDemoTests.m; sourceTree = "<group>"; };
 		AD7386371C2391C2008ED9FB /* AddPCHDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddPCHDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AD7386381C23A38E008ED9FB /* AddPCHFile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AddPCHFile.jpg; sourceTree = "<group>"; };
+		AD7386391C23A38E008ED9FB /* SetPCH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SetPCH.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				AD7386101C239140008ED9FB /* AddPCHDemo */,
 				AD73862A1C239140008ED9FB /* AddPCHDemoTests */,
 				AD73860F1C239140008ED9FB /* Products */,
+				AD7386381C23A38E008ED9FB /* AddPCHFile.jpg */,
+				AD7386391C23A38E008ED9FB /* SetPCH.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD73861D1C239140008ED9FB /* Main.storyboard in Resources */,
+				AD73863A1C23A38E008ED9FB /* AddPCHFile.jpg in Resources */,
+				AD73863B1C23A38E008ED9FB /* SetPCH.jpg in Resources */,
 				AD7386221C239140008ED9FB /* LaunchScreen.xib in Resources */,
 				AD73861F1C239140008ED9FB /* Images.xcassets in Resources */,
 			);
